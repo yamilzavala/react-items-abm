@@ -1,0 +1,29 @@
+# Get all items
+GET http://localhost:3001/items HTTP/1.1
+Content-Type: application/json
+
+###
+
+# Create a item
+POST http://localhost:3001/items HTTP/1.1
+Content-Type: application/json
+
+{
+  "description": "Item test"
+}
+
+###
+
+# Update a item
+PUT http://localhost:3001/items HTTP/1.1
+Content-Type: application/json
+
+{
+  "description": "New item"
+}
+
+###
+
+# Delete a item
+DELETE http://localhost:3001/items HTTP/1.1
+Content-Type: application/json
